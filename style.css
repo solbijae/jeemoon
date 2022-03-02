@@ -224,7 +224,7 @@ a {
     height: relative;
   }
   .portfolio .body img {
-    width: var(--avatar-phone-size);
-    height: relative;
+    width: var(--gallery-phone-size);
+    height: var(--gallery-phone-size);
   }
 }
