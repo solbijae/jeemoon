@@ -14,7 +14,11 @@
   --icon-size: 20px;
   --gallery-size: 350px;
 
-  --avatar-tablet-size: 150px;
+  --avatar-tablet-size: 180px;
+  --avatar-phone-size: 100px;
+
+  --gallery-tablet-size: 250px;
+  --gallery-phone-size: 150px;
 
   /* font size */
   --font-large: 80px;
@@ -192,6 +196,11 @@ a {
   .intro .body img {
     width: var(--avatar-tablet-size);
     height: relative;
+  }
+  .portfolio .body img {
+    width: var(--gallery-tablet-size);
+    height: var(--gallery-tablet-size);
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -213,4 +222,9 @@ a {
   .intro .body img {
     width: var(--avatar-phone-size);
     height: relative;
+  }
+  .portfolio .body img {
+    width: var(--avatar-phone-size);
+    height: relative;
+  }
 }
