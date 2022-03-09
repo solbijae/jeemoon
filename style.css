@@ -177,9 +177,40 @@ a {
   font-size: var(--icon-size);
 }
 
+@media screen and (max-width: 1024px) {
+  * {
+    color: var(--white-color);
+    font-weight: bold;
+  }
+  .intro,
+  .portfolio,
+  .contact {
+    padding: var(--padding-medium);
+    background: url("./img/background2mobile.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    /* min-height: 100vh; */
+    position: relative;
+  }
+  .landing {
+    height: 100vh;
+    background: url("./img/background2mobile.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
+  .intro .title, .portfolio .title, .contact .title, .intro .body .info {
+    color: var(--white-color);
+    font-weight: bold;
+  }
+
 @media screen and (max-width: 768px) {
   * {
     color: var(--white-color);
+    font-weight: bold;
   }
   .intro,
   .portfolio,
@@ -224,11 +255,16 @@ a {
     width: var(--gallery-tablet-size);
     height: var(--gallery-tablet-size);
   }
+  .intro .title, .portfolio .title, .contact .title, .intro .body .info {
+    color: var(--white-color);
+    font-weight: bold;
+  }
 }
 
 @media screen and (max-width: 480px) {
   * {
     color: var(--white-color);
+    font-weight: bold;
   }
   .title {
     font-size: var(--font-phone-medium);
@@ -274,5 +310,9 @@ a {
   .portfolio .body img {
     width: var(--gallery-phone-size);
     height: var(--gallery-phone-size);
+  }
+  .intro .title, .portfolio .title, .contact .title, .intro .body .info {
+    color: var(--white-color);
+    font-weight: bold;
   }
 }
