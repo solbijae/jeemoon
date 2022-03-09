@@ -178,6 +178,17 @@ a {
 }
 
 @media screen and (max-width: 768px) {
+  .intro,
+  .portfolio,
+  .contact,
+  .landing {
+    height: 100vh;
+    background: url("./img/background1.jpeg") no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+  }
   .title {
     font-size: var(--font-tablet-medium);
   }
@@ -209,18 +220,10 @@ a {
   }
   .intro,
   .portfolio,
-  .contact {
-    background: url("./img/background2mobile.jpg") no-repeat center center fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    /* min-height: 100vh; */
-    position: relative;
-  }
+  .contact,
   .landing {
     height: 100vh;
-    background: url("./img/background1mobile.jpg") no-repeat center center fixed;
+    background: url("./img/background1.jpeg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
