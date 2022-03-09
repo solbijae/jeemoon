@@ -192,7 +192,7 @@ a {
   }
   .landing {
     height: 100vh;
-    background: url("./img/background1mobile.png") no-repeat center center fixed;
+    background: url("./img/background1mobile.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -243,7 +243,7 @@ a {
 
   .landing {
     height: 100vh;
-    background: url("./img/background1mobile.png") no-repeat center center fixed;
+    background: url("./img/background1mobile.jpg") no-repeat center center fixed;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
