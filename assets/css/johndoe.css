@@ -8978,7 +8978,7 @@ button.bg-dark:focus {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important;
+  margin-bottom: 2rem !important;
 }
 
 .ml-5,
@@ -11377,14 +11377,16 @@ pre .code {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  /* -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: space-between; */
   max-width: 180px;
 }
 
 .social-icons .social-link {
   font-size: 18px;
+  padding-right: 20px;
+
 }
 
 .social-icons .social-link:hover {
@@ -11540,7 +11542,7 @@ pre .code {
   font-size: calc(40px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
   font-weight: bold;
   line-height: .7;
-  margin-bottom: 25px;
+  margin-bottom: 50px;
   color: inherit;
 }
 
@@ -11682,3 +11684,8 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+/* 내가 적은거 */
+.bookSection{background-color:#FAF9F6;}
+.homeSection{background-color:#17263C;padding:20px;}
+.bookSection .bookImage{width:80vw;display:block;margin:0 auto;margin-bottom:7px;padding-top:40px}
